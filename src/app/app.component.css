@@ -1,0 +1,12 @@
+.table-body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.add-button{
+    position: relative;
+    top: 54px;
+    left: 392px;
+}

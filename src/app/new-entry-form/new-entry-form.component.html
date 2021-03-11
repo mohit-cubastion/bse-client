@@ -1,0 +1,19 @@
+<div style="width: 100%">
+<h1 mat-dialog-title>Add A Record</h1>
+<div mat-dialog-content>
+  <!-- <p>What's your favorite animal?</p> -->
+  <mat-form-field>
+    <mat-label>Open</mat-label>
+    <input matInput [(ngModel)]='openModel'>
+  </mat-form-field>
+  <mat-form-field>
+      <mat-label>Close</mat-label>
+      <input matInput [(ngModel)]='closeModel'>
+    </mat-form-field>
+</div>
+<div mat-dialog-actions>
+  <button mat-button (click)="onNoClick()">Cancel</button>
+  <button mat-button  cdkFocusInitial (click)="onSubmitHandler()">Add</button>
+</div>
+</div>
+

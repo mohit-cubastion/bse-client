@@ -1,0 +1,29 @@
+.mat-column-position{
+    /* background-color: aqua; */
+    width: auto;
+}
+
+.mat-column-date{
+    width: auto;
+}
+.mat-column-open{
+    width: auto;
+}
+
+
+.mat-column-close{
+    width: 20% !important;
+}
+
+
+table {
+    width: 100%;
+  }
+
+  .mat-row:hover{
+    background-color: antiquewhite
+  }
+
+  .mat-header-cell{
+      font-size: 16px
+  }
